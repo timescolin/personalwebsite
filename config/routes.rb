@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-
+   root 'home#index' #the controller is home, pound sign is get the index method.
+   #resources is a built in routing using RESTFUL, generally for dynamic pages.
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
